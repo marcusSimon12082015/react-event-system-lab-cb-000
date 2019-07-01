@@ -11,6 +11,6 @@ export default class EyesOnMe extends React.Component
 
   render()
   {
-    return(<div><button on></button></div>);
+    return(<div><button onFocus={this.focusOnMe} onBlur={this.focusOnMe}></button></div>);
   }
 }
