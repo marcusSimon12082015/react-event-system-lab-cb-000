@@ -5,7 +5,7 @@ export defult class Keypad extends React.Component
 {
   function passFunction()
   {
-    
+
   }
   render(){
     return(<div><input type='password'></div>)
