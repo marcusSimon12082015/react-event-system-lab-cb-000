@@ -8,6 +8,6 @@ export defult class Keypad extends React.Component
 
   }
   render(){
-    return(<div><input type='password'></div>)
+    return(<div><input type='password' onKeyUp={this.passFunction}></div>)
   }
 }
